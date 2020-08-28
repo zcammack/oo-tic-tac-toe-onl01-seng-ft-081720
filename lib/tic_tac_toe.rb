@@ -87,4 +87,11 @@ class TicTacToe
   def over?
     full?
   end
+
+  def winner
+    if won?
+
+    else
+      nil
+  end
 end
