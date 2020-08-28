@@ -77,6 +77,6 @@ class TicTacToe
   end
 
   def full?
-    @board.any?{|x| x != " "}
+    @board.all?{|x| x != " "}
   end
 end
