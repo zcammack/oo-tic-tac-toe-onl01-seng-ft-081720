@@ -60,6 +60,6 @@ class TicTacToe
   end
 
   def won?
-
+    WIN_COMBINATIONS.any? != ture
   end
 end
