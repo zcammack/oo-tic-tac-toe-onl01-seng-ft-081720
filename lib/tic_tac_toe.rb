@@ -49,7 +49,7 @@ class TicTacToe
     end
   end
 
-  def turn(input)
+  def turn
     input = gets.chomp
     input_to_index(input)
     valid_move?(input)
