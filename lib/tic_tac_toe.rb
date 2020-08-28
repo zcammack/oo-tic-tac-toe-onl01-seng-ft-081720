@@ -41,4 +41,8 @@ class TicTacToe
     @board.count { |spaces| spaces != " " }
   end
 
+  def current_player
+
+  end
+
 end
