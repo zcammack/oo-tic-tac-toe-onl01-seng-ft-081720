@@ -49,6 +49,12 @@ class TicTacToe
    puts "Player #{current_player}, please enter a number 1-9:"
    input = gets.chomp
    index = input_to_index(input)
-   valid_move?(index)
+   if valid_move?(index)
+     piece = current_player
+     move(index, piece)
+     display_board
+   else
+     puts "That is an invalid move."
+   end
   end
 end
