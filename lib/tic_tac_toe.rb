@@ -104,5 +104,6 @@ class TicTacToe
       puts "Congrats #{winner}!"
     else
       puts "It's a draw!"
+    end
   end
 end
