@@ -50,11 +50,10 @@ class TicTacToe
    input = gets.chomp
    index = input_to_index(input)
    if valid_move?(index)
-     piece = current_player
      move(index, piece)
-     display_board
    else
      puts "That is an invalid move."
    end
+   display_board
   end
 end
