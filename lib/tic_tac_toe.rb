@@ -99,5 +99,6 @@ class TicTacToe
   def play
     gets.chomp
     turn until over?
+    won? ? puts("Congrats, #{winner}!") : puts("It's a draw!")
   end
 end
