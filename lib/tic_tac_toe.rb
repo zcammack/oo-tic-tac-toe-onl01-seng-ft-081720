@@ -98,5 +98,6 @@ class TicTacToe
 
   def play
     gets.chomp
+    over?
   end
 end
