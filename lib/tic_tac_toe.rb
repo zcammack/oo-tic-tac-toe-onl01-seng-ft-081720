@@ -53,7 +53,7 @@ class TicTacToe
     puts "Please insert a move 1-9!"
 
 
-  end
+
 
 
 
