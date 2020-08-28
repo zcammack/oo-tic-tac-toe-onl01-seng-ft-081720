@@ -50,7 +50,7 @@ class TicTacToe
   end
 
   def turn
-    puts "Please insert a move 1-9!"
+    gets.chomp
 
   end
 end
