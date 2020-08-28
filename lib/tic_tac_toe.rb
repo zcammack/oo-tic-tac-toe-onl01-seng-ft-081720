@@ -52,6 +52,7 @@ class TicTacToe
    if valid_move?(index)
      move(index, piece)
    else
+     puts "That is an invalid move. Please try again."
      gets.chomp
    end
    display_board
