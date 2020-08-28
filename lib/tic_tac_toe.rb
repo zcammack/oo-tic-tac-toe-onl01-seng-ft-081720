@@ -95,4 +95,8 @@ class TicTacToe
       nil
     end
   end
+
+  def play
+    gets.chomp
+  end
 end
