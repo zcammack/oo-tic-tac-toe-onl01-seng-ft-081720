@@ -49,7 +49,7 @@ class TicTacToe
   end
 
 
-  
+
 
   end
 
