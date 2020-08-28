@@ -51,6 +51,6 @@ class TicTacToe
 
   def turn
     input = gets.chomp
-  
+
   end
 end
