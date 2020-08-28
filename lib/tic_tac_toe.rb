@@ -50,9 +50,9 @@ class TicTacToe
   end
 
   def turn(input)
-    gets.chomp
-    input_to_index(self)
-    valid_move?(self)
+    input = gets.chomp
+    input_to_index(input)
+    valid_move?(input)
     current_player
   end
 end
